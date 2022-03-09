@@ -1,5 +1,5 @@
-import { ChallengesRepository } from "../application/repositories/ChallengesRepository";
-import { Challenge } from "../domain/entities/challenge";
+import { ChallengesRepository } from "../../application/repositories/ChallengesRepository";
+import { Challenge } from "../../domain/entities/challenge";
 
 export class InMemoryChallengesRepository implements ChallengesRepository {
   public items: Challenge[] = []

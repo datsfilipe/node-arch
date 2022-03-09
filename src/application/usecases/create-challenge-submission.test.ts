@@ -1,7 +1,7 @@
 import { Challenge } from "../../domain/entities/challenge"
 import { Student } from "../../domain/entities/student"
-import { InMemoryChallengesRepository } from "../../tests/in-memory-challenges-repository"
-import { InMemoryStudentsRepository } from "../../tests/in-memory-students-repository"
+import { InMemoryChallengesRepository } from "../../tests/repositories/in-memory-challenges-repository"
+import { InMemoryStudentsRepository } from "../../tests/repositories/in-memory-students-repository"
 import { CreateChallengeSubmission } from "./create-challenge-submission"
 
 describe('create challenge submission use case', () => {
