@@ -21,5 +21,8 @@ An structure with tests to avoid the necessity of a database when trying to figu
   * [tests](./src/tests)
     * [repositories](./src/tests/repositories)
     *// in-memory repositories to use in tests*
+    
+    
 
-***Replicating an structured app prototype from Rocketseat content on YT called DECODE.***
+
+**Replicating an structured app prototype from Rocketseat content on YT called DECODE.**
