@@ -2,7 +2,7 @@
 
 ### Description
 
-An structure with tests to avoid the necessity of a database when trying to figure out if the code you are writing actually works.
+A structure with tests to avoid the necessity of a database when you want to figure out if the code you are writing works.
 
 ### Project Tree (only dirs)
 

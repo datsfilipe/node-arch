@@ -1,5 +1,5 @@
-import { StudentsRepository } from "../application/repositories/StudentsRepository";
-import { Student } from "../domain/entities/student";
+import { StudentsRepository } from "../../application/repositories/StudentsRepository";
+import { Student } from "../../domain/entities/student";
 
 export class InMemoryStudentsRepository implements StudentsRepository {
   public items: Student[] = []
